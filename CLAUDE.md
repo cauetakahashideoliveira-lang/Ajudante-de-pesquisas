@@ -22,7 +22,9 @@ Este repositório é o assistente de pesquisa na internet do usuário: tirar dú
 
 ## Acesso conhecido
 - Abrem direto: kabum.com.br, amazon.com.br, mercadolivre.com.br, lenovo.com/br, psref.lenovo.com, dell.com/pt-br, br.store.asus.com, samsung.com/br, fastshop.com.br, zoom.com.br, buscape.com.br.
-- Devolvem 403 ao curl (tentar `tools/browse.mjs`/WebFetch; se persistir, usar outra fonte): magazineluiza, casasbahia, pichau, terabyteshop, notebookcheck.net.
+- Devolvem 403 ao curl (tentar `tools/browse.mjs`/WebFetch; se persistir, usar outra fonte): magazineluiza, casasbahia, pichau, terabyteshop, pelando. notebookcheck.net abre com `tools/browse.mjs`. Mercado Livre pede verificação de conta.
+- Também abrem com `tools/browse.mjs`: loja Acer (br-store.acer.com), Avell, Vaio (br.vaio.com), Fast Shop, Dell, Samsung, Zoom e Buscapé (ofertas por código; histórico só quando o produto tem página própria).
+- Relatórios em PDF: gerar com reportlab e a fonte DejaVuSans (`/usr/share/fonts/truetype/dejavu/`) para os acentos.
 - Nada aqui exige credencial. Não fazer login nem compra em nome do usuário.
 
 ## Perfil do usuário (para pesquisas de compra)
